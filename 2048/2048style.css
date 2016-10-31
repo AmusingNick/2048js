@@ -1,0 +1,30 @@
+@charset "utf-8";
+.header{display:block;margin:0px auto;width:100%;text-align:center;}
+.header h1{font-family:Arial;font-size:30px;font-weight:bold;}
+.header #newgamebutton{display:block;margin:0px auto;
+width:100px;padding:10px 10px;background-color:#FBBEFF;font-family:Arial;color:white;border-radius:10px;text-decoration:none;
+cursor: pointer;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.header #newgamebutton:hover{background-color:#9f8b77;}
+.header p{font-family:Arial;font-size:20px;margin:6px auto; }
+
+/* grid-container */
+#mainFrame{
+	width:455px;height:455px;padding:30px;margin:5px auto;background-color:#bbada0;
+border-radius:10px;position:relative;
+background:url("./pic/5ac7e1fc0b20a1896d5947bffa1363ff.png");
+    background-repeat: no-repeat;
+}
+.smallFrame{width:100px;height:100px;border-radius:6px;/* background-color:#ccc0b3; */
+float: left;margin-top: 2%;margin-bottom: 2%;margin-left: 1%;margin-right: 2%;    
+font-family: Arial;
+font-size: 40px; 
+font-weight: bold;
+text-align: center;
+color:rgb(156, 143, 129);
+line-height: 100px;
+}
+#releaseView{
+	text-decoration: none;
+    color: #50412B;
+    cursor: pointer;
+}
